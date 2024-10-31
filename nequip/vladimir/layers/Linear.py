@@ -1,5 +1,11 @@
 from .gmm import GraphModuleMixin
 from e3nn.o3 import Linear
+import torch
+from nequip.data import AtomicDataDict
+
+import random
+from typing import Dict, Tuple, Callable, Any, Sequence, Union, Mapping, Optional
+from collections import OrderedDict
 
 class AtomwiseLinear(GraphModuleMixin, torch.nn.Module):
     def __init__(
