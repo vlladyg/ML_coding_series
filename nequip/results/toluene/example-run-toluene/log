@@ -3,3 +3,5 @@ Torch device: cuda
 Torch device: cuda
 Torch device: cuda
 Torch device: cuda
+Torch device: cpu
+Torch device: cpu
