@@ -3,3 +3,7 @@ from .OHAE import OneHotAtomEncoding
 from .Linear import AtomwiseLinear
 from .rbe import RadialBasisEdgeEncoding
 from .rbe import AddRadialCutoffToData
+from .sh import SphericalHarmonicEdgeAttrs
+
+from .ib import InteractionBlock
+from .conv import ConvNetLayer
