@@ -13,3 +13,4 @@ from .conv import ConvNetLayer
 from .psss import PerSpeciesScaleShift
 from .reduce import AtomwiseReduce
 from .rescale import RescaleOutput
+from .stress import StressOutput
