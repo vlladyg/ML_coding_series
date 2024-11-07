@@ -5,7 +5,8 @@ import torch
 
 from nequip.data import AtomicDataset
 from nequip.data.transforms import TypeMapper
-from .gmm import GraphModuleMixin, GraphModel
+from .gmm import GraphModuleMixin
+from .graph_model import GraphModel
 from nequip.utils import (
     load_callable,
     instantiate,
