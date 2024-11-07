@@ -52,10 +52,10 @@ from nequip.model import model_from_config
 from nequip.utils.config import _GLOBAL_ALL_ASKED_FOR_KEYS
 from nequip.utils.misc import get_default_device_name
 
-from .loss import Loss, LossStat
-from .metrics import Metrics
-from ._key import ABBREV, LOSS_KEY, TRAIN, VALIDATION
-from .early_stopping import EarlyStopping
+from nequip.train.loss import Loss, LossStat
+from nequip.train.metrics import Metrics
+from nequip.train._key import ABBREV, LOSS_KEY, TRAIN, VALIDATION
+from nequip.train.early_stopping import EarlyStopping
 
 
 class Trainer:
