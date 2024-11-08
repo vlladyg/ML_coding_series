@@ -5,3 +5,53 @@ Torch device: cuda
 Torch device: cuda
 Torch device: cpu
 Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Torch device: cpu
+Number of weights: 227420
+Number of trainable weights: 227420
+Torch device: cpu
+Number of weights: 227420
+Number of trainable weights: 227420
+Torch device: cpu
+Torch device: cpu
+Number of weights: 227420
+Number of trainable weights: 227420
+! Starting training ...
+Torch device: cpu
+Number of weights: 227420
+Number of trainable weights: 227420
+! Starting training ...
+Torch device: cpu
+Number of weights: 227420
+Number of trainable weights: 227420
+! Starting training ...
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse      H_f_mae      C_f_mae  psavg_f_mae     H_f_rmse     C_f_rmse psavg_f_rmse        e_mae      e/N_mae
+      0     5      1.6e+08     1.67e+07     1.44e+08     3.02e+03     4.09e+03     2.21e+03     3.94e+03     3.07e+03     2.95e+03     5.09e+03     4.02e+03      1.8e+05      1.2e+04
+
+
+  Initialization     #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse      H_f_mae      C_f_mae  psavg_f_mae     H_f_rmse     C_f_rmse psavg_f_rmse        e_mae      e/N_mae
+! Initial Validation          0    2.061    0.005     1.47e+07     1.44e+08     1.59e+08     2.85e+03     3.84e+03     1.98e+03     3.85e+03     2.91e+03     2.59e+03     4.88e+03     3.74e+03      1.8e+05      1.2e+04
+Wall time: 2.0631081250030547
+! Best model        0 159085408.000
+! Stop training: Early stopping: validation_loss is larger than 10000.0
+Wall time: 2.121133742009988
+Cumulative wall time: 2.121133742009988
