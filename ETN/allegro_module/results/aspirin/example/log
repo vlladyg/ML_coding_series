@@ -1,0 +1,322 @@
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cuda
+Torch device: cpu
+Number of weights: 1316
+Number of trainable weights: 1316
+! Starting training ...
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      0    10         1.16         1.16     0.000198         25.2         33.7         7.61         9.23
+
+
+  Initialization     #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Initial Validation          0    0.509    0.001        0.941      9.4e-05        0.941         22.8         30.3          4.9         6.37
+Wall time: 0.5111326509795617
+! Best model        0    0.941
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      1   100        0.594        0.594     9.62e-05         17.3         24.1         5.32         6.43
+      1   190        0.533        0.532     0.000291         15.6         22.8         8.99         11.2
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      1    10        0.474        0.474     0.000451         14.6         21.5         11.4           14
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               1   17.160    0.001        0.684     0.000174        0.684         18.5         25.8         6.68         8.66
+! Validation          1   17.160    0.001        0.438     0.000206        0.438         14.2         20.7         7.26         9.42
+Wall time: 17.16215481699328
+! Best model        1    0.438
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      2   100        0.297        0.297     0.000142         11.7           17         6.03         7.82
+      2   190        0.253        0.253     0.000107         10.5         15.7         5.52         6.77
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      2    10        0.263        0.262     0.000499         11.1           16         12.1         14.7
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               2   33.717    0.001         0.32     0.000247         0.32         12.1         17.7         8.03         10.3
+! Validation          2   33.717    0.001        0.248     0.000234        0.248         10.7         15.6         7.78           10
+Wall time: 33.71974817098817
+! Best model        2    0.248
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      3   100        0.151        0.151     0.000171         8.78         12.1         6.86         8.58
+      3   190        0.172        0.172     0.000272         9.97           13         8.53         10.8
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      3    10        0.186        0.186     0.000495         9.47         13.5         12.1         14.6
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               3   50.069    0.001        0.193     0.000257        0.193         9.77         13.7         8.19         10.5
+! Validation          3   50.069    0.001        0.166      0.00023        0.167         9.05         12.7         7.71         9.95
+Wall time: 50.07162014200003
+! Best model        3    0.167
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      4   100        0.147        0.147     0.000185         8.48           12         6.93         8.93
+      4   190         0.14        0.139     0.000492          8.6         11.7         11.9         14.6
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      4    10        0.148        0.148     0.000491         8.56           12           12         14.5
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               4   66.744    0.001        0.144     0.000252        0.144         8.56         11.9         8.13         10.4
+! Validation          4   66.744    0.001         0.13     0.000227         0.13         8.14         11.3         7.68         9.88
+Wall time: 66.74657141198986
+! Best model        4    0.130
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      5   100       0.0761       0.0759     0.000247         6.38         8.61         8.08         10.3
+      5   190        0.117        0.117     0.000171         7.61         10.7         6.88         8.59
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      5    10        0.124        0.124     0.000478         7.77           11         11.9         14.4
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               5   82.958    0.001        0.118     0.000242        0.118         7.79         10.7            8         10.2
+! Validation          5   82.958    0.001        0.108     0.000218        0.109         7.44         10.3         7.56         9.68
+Wall time: 82.9606486519915
+! Best model        5    0.109
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      6   100       0.0771       0.0769     0.000112         6.24         8.67         5.53         6.93
+      6   190       0.0627       0.0625     0.000134         5.69         7.82         6.31          7.6
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      6    10        0.105        0.105     0.000469         7.07         10.1         11.8         14.2
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               6   99.397    0.001        0.102     0.000235        0.102         7.25         9.99         7.93         10.1
+! Validation          6   99.397    0.001       0.0929     0.000211       0.0931         6.87         9.53         7.49         9.54
+Wall time: 99.39923706499394
+! Best model        6    0.093
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      7   100        0.102        0.101     0.000288         7.29         9.95         8.68         11.1
+      7   190       0.0938       0.0935     0.000319         7.16         9.56         9.91         11.7
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      7    10       0.0886       0.0882     0.000463         6.48         9.28         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               7  115.483    0.001       0.0886     0.000231       0.0889         6.77          9.3         7.87         9.97
+! Validation          7  115.483    0.001       0.0813     0.000207       0.0815         6.43         8.91         7.44         9.44
+Wall time: 115.4855627049983
+! Best model        7    0.082
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      8   100       0.0742       0.0739     0.000305          6.3          8.5         9.13         11.5
+      8   190       0.0652        0.065     0.000242         5.81         7.97         8.49         10.2
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      8    10       0.0782       0.0777     0.000462         6.11         8.71         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               8  131.103    0.001       0.0781     0.000231       0.0783         6.37         8.73         7.89         9.97
+! Validation          8  131.103    0.001       0.0728     0.000206        0.073         6.12         8.43         7.44         9.43
+Wall time: 131.10582591500133
+! Best model        8    0.073
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      9   100       0.0704       0.0701     0.000289         5.99         8.28         8.91         11.2
+      9   190        0.049       0.0488     0.000254         5.18          6.9         8.22         10.5
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+      9    10        0.069       0.0686     0.000462         5.77         8.18         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train               9  147.412    0.001       0.0718     0.000231        0.072         6.12         8.37         7.89         9.96
+! Validation          9  147.412    0.001        0.066     0.000207       0.0663         5.85         8.03         7.45         9.43
+Wall time: 147.41411542898277
+! Best model        9    0.066
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     10   100       0.0615       0.0612     0.000314         5.86         7.73          9.6         11.6
+     10   190       0.0499       0.0497     0.000244         5.16         6.97          8.6         10.2
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     10    10       0.0634       0.0629     0.000463         5.55         7.84         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train              10  163.651    0.001       0.0645     0.000231       0.0648         5.81         7.94          7.9         9.97
+! Validation         10  163.651    0.001        0.061     0.000207       0.0612         5.63         7.72         7.47         9.45
+Wall time: 163.65350061797653
+! Best model       10    0.061
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     11   100       0.0693       0.0691     0.000207         5.62         8.21         7.44         9.44
+     11   190       0.0554       0.0553     0.000166          5.5         7.35         6.84         8.45
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     11    10        0.058       0.0576     0.000463         5.35          7.5         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train              11  179.485    0.001       0.0601     0.000231       0.0604         5.61         7.66         7.91         9.97
+! Validation         11  179.485    0.001       0.0567     0.000207        0.057         5.44         7.44         7.47         9.44
+Wall time: 179.48706013397896
+! Best model       11    0.057
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     12   100       0.0526       0.0524     0.000182         5.11         7.16         7.34         8.84
+     12   190       0.0526       0.0522     0.000383         5.17         7.14         10.1         12.8
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     12    10       0.0546       0.0541     0.000463         5.25         7.27         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train              12  195.455    0.001       0.0554      0.00023       0.0556         5.38         7.35         7.89         9.95
+! Validation         12  195.455    0.001       0.0531     0.000207       0.0533         5.27          7.2         7.46         9.43
+Wall time: 195.45709387699026
+! Best model       12    0.053
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     13   100       0.0418       0.0417     0.000113         4.59         6.38         5.87         6.99
+     13   190       0.0466       0.0463     0.000208         5.17         6.73         7.73         9.46
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     13    10       0.0514       0.0509     0.000462         5.14         7.05         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train              13  211.508    0.001       0.0525      0.00023       0.0528         5.25         7.16         7.89         9.94
+! Validation         13  211.508    0.001       0.0498     0.000206         0.05         5.11         6.97         7.45         9.41
+Wall time: 211.51069838699186
+! Best model       13    0.050
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     14   100        0.039       0.0388     0.000151         4.54         6.16         6.67         8.06
+     14   190       0.0349       0.0347     0.000167          4.2         5.82         7.04         8.47
+
+validation
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+     14    10       0.0485       0.0481      0.00046         5.03         6.85         11.8         14.1
+
+
+  Train      #    Epoch      wal       LR       loss_f       loss_e         loss        f_mae       f_rmse        e_mae       e_rmse
+! Train              14  227.250    0.001       0.0506     0.000227       0.0508         5.15         7.03         7.85         9.89
+! Validation         14  227.250    0.001       0.0471     0.000204       0.0473         4.97         6.78         7.41         9.37
+Wall time: 227.25282640897785
+! Best model       14    0.047
+Saved trainer to results/aspirin/example/trainer.pth
+Saved last model to to results/aspirin/example/last_model.pth
+
+training
+# Epoch batch         loss       loss_f       loss_e        f_mae       f_rmse        e_mae       e_rmse
+Torch device: cpu
+Torch device: cpu
